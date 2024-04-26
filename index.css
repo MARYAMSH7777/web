@@ -1,0 +1,111 @@
+.div1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*margin: 15px 200px 0px 300px;*/
+    background-color: aquamarine;
+    box-shadow: 2px 5px 17px 5px;
+}
+
+@media screen and (max-width:400px) {
+    .div1{
+
+       background-color: rgb(6, 42, 65);
+    }
+   
+}
+
+.div1:hover{
+
+    background-color: blue;
+
+}
+
+
+.classm{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.div2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*margin: 15px 200px 0px 300px;*/
+    background-color: rgb(19, 101, 74);
+    box-shadow: 2px 5px 17px 5px;
+}
+
+.div2:hover{
+  opacity: 50%;
+    
+}
+
+.div3{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*margin: 15px 200px 0px 300px;*/
+    background-color: rgb(134, 26, 65);
+    box-shadow: 2px 5px 17px 5px;
+}
+
+.div3:hover{
+    cursor: pointer;
+
+    
+}
+
+
+.div4{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*margin: 15px 200px 0px 300px;*/
+    background-color: rgb(103, 76, 211);
+    box-shadow: 2px 5px 17px 5px;
+}
+
+.div4:hover{
+
+    cursor: grab;
+}
+
+.div5{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*margin: 15px 200px 0px 300px;*/
+    background-color: rgb(218, 180, 66);
+}
+
+.div5:hover{
+ display: none;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: black;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+@media screen and (max-width:400px) {
+     h1{
+        color: brown;
+     }
+    
+}
+
+@media screen and (min-width:400 )and (max-width:1000px) {
+    h1{
+       color: rgb(120, 240, 15);
+
+    }
+   
+}
